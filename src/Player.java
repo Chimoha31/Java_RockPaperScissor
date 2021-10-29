@@ -2,9 +2,9 @@
 public class Player {
 	
 	//---variable-----
-	final String HAND_R = "Rock" ;     //手（Rock）
-	final String HAND_S = "Scissor" ;   //手（Scissor）
-	final String HAND_P = "Paper" ;     //手（Paper）
+	final String HAND_R = "Rock" ;     //hand（Rock）
+	final String HAND_S = "Scissor" ;   //hand（Scissor）
+	final String HAND_P = "Paper" ;     //hand（Paper）
 	
 	
 	//---field---
@@ -14,7 +14,7 @@ public class Player {
 	
 	//---Constructor(with Parameter)---
 	Player(String nm){
-		this.name       = nm ; 
+		this.name = nm ; 
 	}
 	
 	

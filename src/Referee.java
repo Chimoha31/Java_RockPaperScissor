@@ -22,12 +22,10 @@ public class Referee {
 	
 	//ジャンケン開始の掛け声
 	void startJanken(){
-		
-		messageReferee("Ready... Go！！！！！");
-		
+		messageReferee("Ready... Go！！！！！");	
 	}
 	
-	//プレイヤーの手を確認するmethod
+	//Check both players hand method
 	void checkHand( Player p ){
 	
 		//両playerのじゃんけんの手を何出したかを言う
@@ -49,7 +47,7 @@ public class Referee {
 		}else{
 			
 			//不正の場合、エラーメッセージを出力
-			System.out.println("[ERROR]ジャンケンの判定が不正です。");
+			System.out.println("[ERROR]");
 			
 		}
 	}
@@ -83,12 +81,12 @@ public class Referee {
 		}else{
 			
 			//不正の場合、エラーメッセージを出力
-			System.out.println("[ERROR]ジャンケンの判定が不正です。");
+			System.out.println("[ERROR]");
 			
 		}
 	}
 	
-	//審判としてメッセージを表示する
+	//Show messages as a Referee
 	void messageReferee(String msg){
 		
 		System.out.println( this.name + "「" + msg + "」");
